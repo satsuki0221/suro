@@ -3,7 +3,8 @@ import * as ReactDom from 'react-dom';
 import {observable} from "mobx";
 import {observer} from 'mobx-react';
 
-import { Hello } from './components/Hello';
+import { Hello } from './components/Hello'
+import { Navbar } from './components/Navbar'
 
 class AppState {
   id = Math.random();
